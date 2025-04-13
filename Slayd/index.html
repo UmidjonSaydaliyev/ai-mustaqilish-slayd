@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="QP8ew2bmYMHYcdFEkSjysJ2YNKxWF1zQlgQyKH5aaiA" />
+    <title>Buyurtma berish | Slayd_Maqola</title>
+
+    <!-- SEO uchun tavsif va kalit so‘zlar -->
+    <meta name="description" content="Slayd, maqola, kurs va mustaqil ish tayyorlash xizmati. Tez, sifatli va ishonchli xizmatlar. Hozir buyurtma bering!">
+    <meta name="keywords" content="maqola tayyorlash, slayd yaratish, kurs ishi, mustaqil ish, taqdimotlar, ilmiy ishlar">
+    <meta name="author" content="Slayd_Maqola jamoasi">
+
+    <!-- Open Graph (social media preview) -->
+    <meta property="og:title" content="Buyurtma berish | Slayd_Maqola">
+    <meta property="og:description" content="Slayd, maqola, kurs va mustaqil ish tayyorlash bo‘yicha xizmat. Tez va sifatli xizmat uchun buyurtma bering.">
+    <meta property="og:url" content="https://ai-mustaqilsih-slayd.netlify.app">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ai-mustaqilsih-slayd.app/images/preview.jpg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #f8f9fa;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 60px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #343a40;
+        }
+        .btn-primary {
+            width: 100%;
+        }
+        .about-section, .services-section {
+            margin-top: 40px;
+        }
+        .service-item {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        .service-item h5 {
+            font-size: 1.2rem;
+            color: #343a40;
+        }
+        .service-item p {
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <section class="about-section">
+        <h2>🌐 Biz haqimizda</h2>
+        <p>
+            "Slayd_Maqola" — maqola, slayd, kurs ishi va mustaqil ishlar tayyorlashda sizga yordam beradigan ishonchli xizmat.
+            Biz sizning bilim va ijodingizni yaxshilash uchun samarali va sifatli xizmatlarni taqdim etamiz.
+        </p>
+    </section>
+
+    <section class="services-section">
+        <h2>💼 Bizning Xizmatlarimiz</h2>
+        <div class="service-item">
+            <h5>📄 Maqola tayyorlash</h5>
+            <p>Har qanday mavzuda maqola yozish, ilmiy va akademik talablar asosida.</p>
+            <p><strong>Narx: 10 000 so'm</strong></p>
+        </div>
+        <div class="service-item">
+            <h5>📊 Slaydlar tayyorlash</h5>
+            <p>PowerPoint slaydlar yaratish, taqdimotlar uchun chiroyli dizaynlar.</p>
+            <p><strong>Narx: 5 000 so'm</strong></p>
+        </div>
+        <div class="service-item">
+            <h5>📚 Kurs ishi tayyorlash</h5>
+            <p>Akademik kurs ishi yozish, muammolarni tahlil qilish va yondashuvlar ishlab chiqish.</p>
+            <p><strong>Narx: 30 000, 50 000 so'm</strong></p>
+        </div>
+        <div class="service-item">
+            <h5>📖 Mustaqil ish tayyorlash</h5>
+            <p>Mustaqil ishlarni yozish va yozma topshiriqlarni mukammallashtirish.</p>
+            <p><strong>Narx: 5 000 so'm</strong></p>
+        </div>
+    </section>
+
+    <section class="form-container">
+        <h2>📝 Buyurtma berish</h2>
+        <form id="orderForm">
+            <div class="mb-3">
+                <label for="service" class="form-label">Xizmat turi:</label>
+                <select class="form-select" id="service" name="service" required>
+                    <option value="📄 Maqola">📄 Maqola</option>
+                    <option value="📊 Slayd">📊 Slayd</option>
+                    <option value="📚 Kurs ishi">📚 Kurs ishi</option>
+                    <option value="📖 Mustaqil ish">📖 Mustaqil ish</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Ismingiz:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="contact" class="form-label">Aloqa (tel/Telegram):</label>
+                <input type="text" class="form-control" id="contact" name="contact" required>
+            </div>
+            <div class="mb-3">
+                <label for="topic" class="form-label">Mavzu nomi:</label>
+                <input type="text" class="form-control" id="topic" name="topic" required>
+            </div>
+            <div class="mb-3">
+                <label for="details" class="form-label">Qo‘shimcha izoh:</label>
+                <textarea class="form-control" id="details" name="details" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">📩 Buyurtma berish</button>
+        </form>
+    </section>
+</div>
+
+<script>
+    const botToken = '7644630877:AAFgLGhLpKJEYCafvbrNtgg955W5k7D4OYo';
+    const chatId = '5198568117';
+
+    document.getElementById('orderForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const service = document.getElementById('service').value;
+        const name = document.getElementById('name').value;
+        const contact = document.getElementById('contact').value;
+        const topic = document.getElementById('topic').value;
+        const details = document.getElementById('details').value;
+
+        const message = `📝 *Yangi buyurtma!* 
+
+👤 Ism: ${name}
+📞 Aloqa: ${contact}
+📌 Xizmat turi: ${service}
+📚 Mavzu: ${topic}
+📄 Qo‘shimcha: ${details}`;
+
+        fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                chat_id: chatId,
+                text: message,
+                parse_mode: 'Markdown'
+            })
+        })
+        .then(response => {
+            if (response.ok) {
+                alert("✅ Buyurtma yuborildi!");
+                document.getElementById('orderForm').reset();
+            } else {
+                alert("❌ Xabar yuborilmadi.");
+            }
+        })
+        .catch(error => {
+            console.error('Xatolik:', error);
+            alert("❌ Xatolik yuz berdi.");
+        });
+    });
+</script>
+</body>
+</html>
